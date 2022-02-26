@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+   text-decoration-color: red;
+  background-image: url("https://upload.wikimedia.org/wikipedia/en/8/8b/Purplecom.jpg");
 }
 
 .App-logo {

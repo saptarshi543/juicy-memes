@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+// import ReactDOM from "react-dom";
 
 var list=[];
 var style={
@@ -20,7 +20,7 @@ class Show extends React.Component{
     return(
       <div>
       {
-        list.map((image,index)=> <img key={index} src={image} style={myStyle_horizontal} alt="info"></img> )
+        list.map((image,index)=> <img key={index} src={image} style={style} alt="info"></img> )
       }
       </div>
       )
