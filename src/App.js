@@ -7,9 +7,10 @@ function App() {
     <div className="App">
       <h2>Some memes to help you ease your anxiety </h2>
       <br></br>
+     <Me />
+<br></br>
       <Show />
       <br></br>
-      <Me />
     </div>
   );
 }
