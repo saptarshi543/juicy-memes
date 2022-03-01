@@ -6,7 +6,8 @@ var style={
 	width: '315px',
 	height: '250px',
 	padding: '10px',
-	borderRadius: "15px"
+	borderRadius: "15px",
+	    border:"2px solid #555"
 };
 
 class Show extends React.Component{
