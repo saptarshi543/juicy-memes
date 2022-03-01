@@ -20,7 +20,7 @@ class Show extends React.Component{
     return(
       <div>
       {
-        list.map((image,index)=> <img key={index} src={image} style={style} alt="info"></img> )
+        list.map((image,index)=> <img key={index} src={image} loading="lazy" style={style} alt="info"></img> )
       }
       </div>
       )
