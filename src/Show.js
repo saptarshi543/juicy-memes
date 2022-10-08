@@ -18,11 +18,13 @@ class Show extends React.Component{
 		list=this.importAll(require.context('./data/', false, /\.(png|jpe?g|svg)$/));
 	}
 	render(){
+		var count=0;
     return(
       <div>
       {
-        list.map((image,index)=> <img key={index} src={image} loading="lazy" style={style} alt="info"></img> )
+        list.map((image,index)=> <img key={index} src={image} title={++count}  loading="lazy" style={style} alt="info"></img> )
       }
+	    <p>Total number of memes: {count}</p>
       </div>
       )
   }
