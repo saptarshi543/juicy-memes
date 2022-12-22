@@ -15,7 +15,7 @@ class Show extends React.Component{
 		return r.keys().map(r);
 	}
 	componentWillMount(){
-		list=this.importAll(require.context('./data/', false, /\.(png|jpe?g|svg)$/));
+		list=this.importAll(require.context('./data/', false, /\.(png|jpe?g|svg|webp)$/));
 	}
 	render(){
 		var count=0;
